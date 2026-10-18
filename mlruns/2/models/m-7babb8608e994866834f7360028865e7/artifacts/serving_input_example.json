@@ -1,0 +1,39 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "PPV",
+      "PH",
+      "PRIX_BR",
+      "TAUX_REMBOURSEMENT_NUM",
+      "DOSAGE_NUM",
+      "NB_PRESENTATIONS_DCI",
+      "PPV_MOYEN_DCI",
+      "RATIO_PPV_BR",
+      "DIFF_PPV_PH"
+    ],
+    "data": [
+      [
+        35.7,
+        0.0,
+        35.7,
+        0.0,
+        500.0,
+        1.0,
+        35.7,
+        0.9727520435967304,
+        35.7
+      ],
+      [
+        125.9,
+        83.3,
+        125.9,
+        0.0,
+        2.5,
+        14.0,
+        252.29285714285717,
+        0.992119779353822,
+        42.60000000000001
+      ]
+    ]
+  }
+}

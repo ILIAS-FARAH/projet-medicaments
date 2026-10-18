@@ -1,0 +1,41 @@
+artifact_path: file:///C:/Users/User/Desktop/projet-medicaments/mlruns/2/models/m-7babb8608e994866834f7360028865e7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.17.1
+model_id: m-7babb8608e994866834f7360028865e7
+model_size_bytes: 2605435
+model_uuid: m-7babb8608e994866834f7360028865e7
+prompts: null
+run_id: 533f5c71e7c04087bd3018db7150db26
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "PPV", "required": true}, {"type": "double",
+    "name": "PH", "required": true}, {"type": "double", "name": "PRIX_BR", "required":
+    true}, {"type": "double", "name": "TAUX_REMBOURSEMENT_NUM", "required": true},
+    {"type": "double", "name": "DOSAGE_NUM", "required": true}, {"type": "double",
+    "name": "NB_PRESENTATIONS_DCI", "required": true}, {"type": "double", "name":
+    "PPV_MOYEN_DCI", "required": true}, {"type": "double", "name": "RATIO_PPV_BR",
+    "required": true}, {"type": "double", "name": "DIFF_PPV_PH", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-18 17:20:56.125483'

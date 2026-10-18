@@ -1,0 +1,5 @@
+name: projet-medicaments
+
+entry_points:
+  main:
+    command: "python pipeline.py"
